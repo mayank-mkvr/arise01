@@ -1,0 +1,43 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body theme */
+body {
+  background-color: #000; 
+  color: #e7e7e7;         
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #5ed9ff;
+}
+
+/* Video section */
+.Demo {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #ccc;
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #e7e7e7;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  color: #3cbcd3;
+  font-size: 2rem;
+}
+
+nav a {
+  color: #ccc;
+  margin-left: 2rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover,
+nav .active {
+  color: #00ccff;
+}
+
+.about-section {
+  max-width: 700px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #5ed9ff;
+}
+
+.about-section p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #aaa;
+}
+
+.team-credit {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #888;
+}
